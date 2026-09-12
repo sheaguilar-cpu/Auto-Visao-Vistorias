@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Auto Visão Vistorias e Perícias Automotivas - Há quase 20 anos oferecendo vistoria veicular, perícia automotiva e laudos com credibilidade em Campinas/SP." />
+  <title>Auto Visão | Vistorias e Perícias Automotivas em Campinas</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ============ TOP BAR ============ -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-info">
+        <span><i class="fa-solid fa-phone"></i> (19) 3234-3929</span>
+        <span><i class="fa-solid fa-envelope"></i> igarashi@igarashicontabil.com.br</span>
+        <span><i class="fa-solid fa-clock"></i> Seg a Sex: 08h - 18h | Sáb: 08h - 12h</span>
+      </div>
+      <div class="topbar-social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">
+        <i class="fa-solid fa-car-side logo-icon"></i>
+        <div class="logo-text">
+          <strong>AUTO VISÃO</strong>
+          <small>Vistorias &amp; Perícias Automotivas</small>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#empresa">Empresa</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contato" class="btn btn-primary header-cta">
+        <i class="fa-solid fa-calendar-check"></i> Agendar Vistoria
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="badge"><i class="fa-solid fa-shield-halved"></i> Credibilidade desde 2006</span>
+        <h1>Vistorias e Perícias Automotivas com <span>Confiança e Agilidade</span></h1>
+        <p>
+          Há quase 20 anos garantindo segurança e transparência em vistorias veiculares,
+          laudos cautelares e perícias automotivas em Campinas e região.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contato" class="btn btn-primary">
+            <i class="fa-solid fa-file-signature"></i> Solicitar Vistoria
+          </a>
+          <a href="#servicos" class="btn btn-outline">
+            <i class="fa-solid fa-list-check"></i> Ver Serviços
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <strong data-count="20">0</strong>
+            <span>Anos de Experiência</span>
+          </div>
+          <div class="stat">
+            <strong data-count="15000">0</strong>
+            <span>Vistorias Realizadas</span>
+          </div>
+          <div class="stat">
+            <strong data-count="98">0</strong>
+            <span>% Satisfação</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <i class="fa-solid fa-clipboard-check"></i>
+          <h3>Agende Agora</h3>
+        </div>
+        <form class="quick-form" id="quickForm">
+          <div class="input-group">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Seu nome" required />
+          </div>
+          <div class="input-group">
+            <i class="fa-solid fa-phone"></i>
+            <input type="tel" placeholder="Telefone / WhatsApp" required />
+          </div>
+          <div class="input-group">
+            <i class="fa-solid fa-car"></i>
+            <input type="text" placeholder="Modelo do veículo" required />
+          </div>
+          <div class="input-group">
+            <i class="fa-solid fa-wrench"></i>
+            <select required>
+              <option value="">Escolha o serviço</option>
+              <option>Vistoria de Transferência</option>
+              <option>Vistoria Cautelar</option>
+              <option>Perícia Automotiva</option>
+              <option>Laudo para Seguradora</option>
+              <option>Vistoria de Frota</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fa-solid fa-paper-plane"></i> Enviar Solicitação
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="features">
+    <div class="container features-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+        <h4>Atendimento Rápido</h4>
+        <p>Vistorias agendadas com agilidade e laudos entregues em tempo recorde.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-certificate"></i></div>
+        <h4>Laudos Certificados</h4>
+        <p>Documentação reconhecida por seguradoras, Detran e órgãos competentes.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-user-shield"></i></div>
+        <h4>Equipe Especializada</h4>
+        <p>Peritos experientes e capacitados para avaliar qualquer tipo de veículo.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-location-dot"></i></div>
+        <h4>Localização Central</h4>
+        <p>No coração de Campinas, com fácil acesso e estacionamento no local.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVIÇOS ============ -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-gears"></i> Nossos Serviços</span>
+        <h2>Soluções completas em vistorias e perícias</h2>
+        <p>Oferecemos uma gama completa de serviços automotivos com precisão técnica e confiabilidade.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+          <h3>Vistoria de Transferência</h3>
+          <p>Laudo obrigatório para transferência de propriedade junto ao Detran, com análise completa do veículo.</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Análise documental</li>
+            <li><i class="fa-solid fa-check"></i> Verificação de chassi e motor</li>
+            <li><i class="fa-solid fa-check"></i> Emissão de laudo</li>
+          </ul>
+          <a href="#contato" class="service-link">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+          <h3>Vistoria Cautelar</h3>
+          <p>Análise minuciosa para identificar adulterações, sinistros, leilões e irregularidades ocultas.</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Verificação de estrutura</li>
+            <li><i class="fa-solid fa-check"></i> Checagem de histórico</li>
+            <li><i class="fa-solid fa-check"></i> Laudo com fotos</li>
+          </ul>
+          <a href="#contato" class="service-link">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-gavel"></i></div>
+          <h3>Perícia Automotiva</h3>
+          <p>Perícias técnicas para fins judiciais, extrajudiciais, avaliação de danos e identificação de causas.</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Avaliação de danos</li>
+            <li><i class="fa-solid fa-check"></i> Laudo técnico detalhado</li>
+            <li><i class="fa-solid fa-check"></i> Suporte jurídico</li>
+          </ul>
+          <a href="#contato" class="service-link">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Laudo para Seguradora</h3>
+          <p>Laudos reconhecidos por seguradoras para sinistros, roubos, furtos e coberturas diversas.</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Vistoria prévia e final</li>
+            <li><i class="fa-solid fa-check"></i> Registro fotográfico</li>
+            <li><i class="fa-solid fa-check"></i> Relatório completo</li>
+          </ul>
+          <a href="#contato" class="service-link">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-truck"></i></div>
+          <h3>Vistoria de Frota</h3>
+          <p>Gestão e vistoria de frotas empresariais com relatórios periódicos e controle completo.</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Atendimento in loco</li>
+            <li><i class="fa-solid fa-check"></i> Relatórios gerenciais</li>
+            <li><i class="fa-solid fa-check"></i> Contratos personalizados</li>
+          </ul>
+          <a href="#contato" class="service-link">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-file-invoice"></i></div>
+          <h3>Avaliação de Veículos</h3>
+          <p>Avaliação precisa de valor de mercado para compra, venda, financiamento ou inventário.</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Tabela FIPE</li>
+            <li><i class="fa-solid fa-check"></i> Análise de estado</li>
+            <li><i class="fa-solid fa-check"></i> Laudo de avaliação</li>
+          </ul>
+          <a href="#contato" class="service-link">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE ============ -->
+  <section class="section section-alt" id="sobre">
+    <div class="container about-grid">
+      <div class="about-content">
+        <span class="section-tag"><i class="fa-solid fa-building"></i> Sobre Nós</span>
+        <h2>Quase 20 anos de credibilidade em Campinas</h2>
+        <p>
+          A <strong>Auto Visão Vistorias e Perícias Automotivas LTDA</strong> atua desde 2006 oferecendo
+          serviços de vistoria veicular e perícia automotiva com seriedade, transparência e qualidade técnica.
+        </p>
+        <p>
+          Nossa equipe é formada por profissionais experientes e constantemente capacitados, garantindo
+          laudos precisos, reconhecidos por seguradoras, órgãos públicos e pelo mercado automotivo.
+        </p>
+
+        <div class="about-list">
+          <div class="about-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h5>Tecnologia de Ponta</h5>
+              <p>Equipamentos modernos para diagnósticos precisos.</p>
+            </div>
+          </div>
+          <div class="about-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h5>Atendimento Personalizado</h5>
+              <p>Cada cliente recebe atenção e soluções sob medida.</p>
+            </div>
+          </div>
+          <div class="about-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h5>Compromisso com Prazos</h5>
+              <p>Agilidade na execução e entrega dos laudos.</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#contato" class="btn btn-primary">
+          <i class="fa-solid fa-phone"></i> Fale Conosco
+        </a>
+      </div>
+
+      <div class="about-visual">
+        <div class="about-card-float card-1">
+          <i class="fa-solid fa-medal"></i>
+          <div>
+            <strong>Desde 2006</strong>
+            <span>Experiência Comprovada</span>
+          </div>
+        </div>
+        <div class="about-image">
+          <i class="fa-solid fa-car-on"></i>
+        </div>
+        <div class="about-card-float card-2">
+          <i class="fa-solid fa-thumbs-up"></i>
+          <div>
+            <strong>98%</strong>
+            <span>Clientes Satisfeitos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DADOS EMPRESA ============ -->
+  <section class="section" id="empresa">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-id-card"></i> Dados da Empresa</span>
+        <h2>Informações institucionais</h2>
+        <p>Transparência total com nossos clientes e parceiros comerciais.</p>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="info-content">
+            <span>Razão Social</span>
+            <strong>Auto Visão Vistorias e Perícias Automotivas LTDA</strong>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-hashtag"></i></div>
+          <div class="info-content">
+            <span>CNPJ</span>
+            <strong>08.322.855/0001-40</strong>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-file-contract"></i></div>
+          <div class="info-content">
+            <span>Inscrição Estadual (SP)</span>
+            <strong>244.798.357.112</strong>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-calendar-days"></i></div>
+          <div class="info-content">
+            <span>Data de Abertura</span>
+            <strong>06/09/2006</strong>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="info-content">
+            <span>Endereço</span>
+            <strong>Av. Andrade Neves, 1160 - Centro</strong>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-map-pin"></i></div>
+          <div class="info-content">
+            <span>CEP / Município / UF</span>
+            <strong>13013-161 — Campinas/SP</strong>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="info-content">
+            <span>E-mail</span>
+            <strong>igarashi@igarashicontabil.com.br</strong>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="info-content">
+            <span>Telefone</span>
+            <strong>(19) 3234-3929</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BANNER ============ -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div>
+        <h2>Precisa de uma vistoria confiável?</h2>
+        <p>Agende agora mesmo e receba atendimento personalizado em Campinas e região.</p>
+      </div>
+      <div class="cta-buttons">
+        <a href="tel:1932343929" class="btn btn-light">
+          <i class="fa-solid fa-phone"></i> (19) 3234-3929
+        </a>
+        <a href="#contato" class="btn btn-dark">
+          <i class="fa-solid fa-calendar-check"></i> Agendar Vistoria
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section class="section" id="contato">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-headset"></i> Fale Conosco</span>
+        <h2>Entre em contato</h2>
+        <p>Estamos prontos para atender você. Envie sua mensagem ou visite nosso escritório.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Endereço</h4>
+              <p>Av. Andrade Neves, 1160 — Centro<br />Campinas/SP — CEP 13013-161</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Telefone</h4>
+              <p>(19) 3234-3929</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>E-mail</h4>
+              <p>igarashi@igarashicontabil.com.br</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4>Horário de Atendimento</h4>
+              <p>Segunda a Sexta: 08h às 18h<br />Sábado: 08h às 12h</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="input-group">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Nome completo" required />
+            </div>
+            <div class="input-group">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="E-mail" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-group">
+              <i class="fa-solid fa-phone"></i>
+              <input type="tel" placeholder="Telefone" required />
+            </div>
+            <div class="input-group">
+              <i class="fa-solid fa-wrench"></i>
+              <select required>
+                <option value="">Serviço desejado</option>
+                <option>Vistoria de Transferência</option>
+                <option>Vistoria Cautelar</option>
+                <option>Perícia Automotiva</option>
+                <option>Laudo para Seguradora</option>
+                <option>Vistoria de Frota</option>
+                <option>Avaliação de Veículos</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-group textarea-group">
+            <i class="fa-solid fa-comment-dots"></i>
+            <textarea placeholder="Descreva sua necessidade..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fa-solid fa-paper-plane"></i> Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="logo logo-footer">
+          <i class="fa-solid fa-car-side logo-icon"></i>
+          <div class="logo-text">
+            <strong>AUTO VISÃO</strong>
+            <small>Vistorias &amp; Perícias Automotivas</small>
+          </div>
+        </div>
+        <p>Há quase 20 anos oferecendo vistorias e perícias automotivas com credibilidade em Campinas e região.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#empresa">Empresa</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#servicos">Vistoria de Transferência</a></li>
+          <li><a href="#servicos">Vistoria Cautelar</a></li>
+          <li><a href="#servicos">Perícia Automotiva</a></li>
+          <li><a href="#servicos">Laudo para Seguradora</a></li>
+          <li><a href="#servicos">Vistoria de Frota</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-location-dot"></i> Av. Andrade Neves, 1160 — Centro, Campinas/SP</li>
+          <li><i class="fa-solid fa-phone"></i> (19) 3234-3929</li>
+          <li><i class="fa-solid fa-envelope"></i> igarashi@igarashicontabil.com.br</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2025 Auto Visão Vistorias e Perícias Automotivas LTDA — CNPJ 08.322.855/0001-40</p>
+        <p>IE: 244.798.357.112 — Campinas/SP</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING WHATSAPP ============ -->
+  <a href="https://wa.me/551932343929" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
